@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 public class TwigTransPostfixCompletionTemplate extends PostfixTemplate {
 
     protected TwigTransPostfixCompletionTemplate() {
-        super("trans", "Append a trans filter and move the carret back");
+        super("trans", "Append a trans filter and move the caret back");
     }
 
     @Override
