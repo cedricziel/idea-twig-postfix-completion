@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>com.cedricziel.idea.twig.postfix</id>
+    <name>Postfix completion templates for the Twig template language</name>
+    <version>0.0.1</version>
+    <vendor email="cedric@cedric-ziel.com" url="http://www.cedric-ziel.com">com.cedricziel</vendor>
+
+    <description><![CDATA[
+    ]]></description>
+
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="172"/>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.jetbrains.twig</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.template.postfixTemplateProvider implementationClass="com.cedricziel.idea.twig.postfix.TwigPostfixCompletionTemplateProvider"
+                                                      language="Twig"/>
+    </extensions>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
