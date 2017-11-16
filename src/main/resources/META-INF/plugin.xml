@@ -5,6 +5,18 @@
     <vendor email="cedric@cedric-ziel.com" url="http://www.cedric-ziel.com">com.cedricziel</vendor>
 
     <description><![CDATA[
+Provides Postfix completion for the Twig template language.
+
+<h3>trans postfix completion</h3>
+
+
+Trigger:
+<pre>{{ "".trans }}</pre>
+
+Result:
+<pre>{{ "" | trans }}</pre>
+
+<a href="https://youtu.be/jNFdgjdd-T8">DEMO</a>
     ]]></description>
 
     <change-notes><![CDATA[
